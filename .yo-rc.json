@@ -1,0 +1,97 @@
+{
+  "generator-jhipster-kotlin": {
+    "promptValues": {
+      "packageName": "com.raenjamio"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "monolith",
+    "baseName": "khipstervue",
+    "packageName": "com.raenjamio",
+    "packageFolder": "com/raenjamio",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "rememberMeKey": "68436fea22bc0fa86f15e8452662f4ff82e6708fb79763e66b8f2bdf0c6844d6e2f44aef4ed81cc300fb22392e004a587fc8",
+    "embeddableLaunchScript": false
+  },
+  "generator-jhipster": {
+    "promptValues": {
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "monolith",
+    "baseName": "khipstervue",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.3.0"
+      },
+      {
+        "name": "generator-jhipster-vuejs2",
+        "version": "1.1.12"
+      },
+      {
+        "name": "generator-jhipster-primeng-charts",
+        "version": "1.2.0"
+      },
+      {
+        "name": "generator-jhipster-database-backup",
+        "version": "1.0.7"
+      },
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.2.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "es"
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.2.0"
+      }
+    ],
+    "packageName": "com.raenjamio",
+    "packageFolder": "com/raenjamio",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "rememberMeKey": "68436fea22bc0fa86f15e8452662f4ff82e6708fb79763e66b8f2bdf0c6844d6e2f44aef4ed81cc300fb22392e004a587fc8",
+    "embeddableLaunchScript": false
+  },
+  "generator-jhipster-vuejs": {
+    "languages": [
+      "es"
+    ]
+  }
+}
